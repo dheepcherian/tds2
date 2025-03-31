@@ -12,9 +12,17 @@ import json
 
 app = FastAPI()
 
-# Replace with your OpenAI API key
-OPENAI_API_KEY = "your-api-key"
+import os
+import openai
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API key from environment variable
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = OPENAI_API_KEY
+
 
 
 # 📚 Utility Functions
