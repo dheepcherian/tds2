@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+pdfplumber
+geopandas
+requests
+beautifulsoup4
+openai
