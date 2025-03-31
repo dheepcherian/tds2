@@ -6,3 +6,4 @@ geopandas
 requests
 beautifulsoup4
 openai
+python-dotenv
